@@ -35,7 +35,7 @@ struct st_t
 };
 struct st_t st = {
 	.op = 7,
-	.name = "Ursel",
+	.name = "Ursela Karioth",
 };
 
 unsigned int tt = 9;
