@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int a = 26;
+int a = 8;
 void* b;
 
 //#define size_t unsigned int
@@ -17,7 +17,7 @@ void Errors(void *ptr, unsigned int z)
   //ptr = (void *)a; //Invalid pointer
   //Infinity loop if array size > UINT_MAX
   for (i = 0; i != z; i++)
-    printf("Hallo\n %zu\n", i);
+    printf("!!! Hallo !!!\n %zu\n", i);
 	printf("*a=%zu\n", *a);
   value_in_bounds(*a);
 }
