@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int a = 7;
+int a = 26;
 void* b;
 
 //#define size_t unsigned int
@@ -35,7 +35,7 @@ struct st_t
 };
 struct st_t st = {
 	.op = 7,
-	.name = "Ursel",
+	.name = "Ursela Karioth",
 };
 
 unsigned int tt = 9;
@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
 	unsigned long tv_usec = start_tv_usec + counter % 1000000;
 	if (tv_usec >= 1000000)
 	{
-				printf("Überlauf\n");
+				printf("Ãœberlauf\n");
 		tv_usec %= 1000000;
 		tv_usec = start_tv_usec;
 		tv_sec++;
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
     tv_usec = start_tv_usec + counter % 1000000;
 	if (tv_usec >= 1000000)
 	{
-		printf("Überlauf\n");
+		printf("Ãœberlauf\n");
 		tv_usec %= 1000000;
 		tv_sec++;
 	}
