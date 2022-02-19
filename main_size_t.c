@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int a = 7;
+int a = 8;
 void* b;
 
 //#define size_t unsigned int
@@ -17,7 +17,7 @@ void Errors(void *ptr, unsigned int z)
   //ptr = (void *)a; //Invalid pointer
   //Infinity loop if array size > UINT_MAX
   for (i = 0; i != z; i++)
-    printf("Hallo\n %zu\n", i);
+    printf("!!! Hallo !!!\n %zu\n", i);
 	printf("*a=%zu\n", *a);
   value_in_bounds(*a);
 }
@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
 	unsigned long tv_usec = start_tv_usec + counter % 1000000;
 	if (tv_usec >= 1000000)
 	{
-				printf("Überlauf\n");
+				printf("Ãœberlauf\n");
 		tv_usec %= 1000000;
 		tv_usec = start_tv_usec;
 		tv_sec++;
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
     tv_usec = start_tv_usec + counter % 1000000;
 	if (tv_usec >= 1000000)
 	{
-		printf("Überlauf\n");
+		printf("Ãœberlauf\n");
 		tv_usec %= 1000000;
 		tv_sec++;
 	}
