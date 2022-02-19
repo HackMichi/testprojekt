@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+// new varibale
 
 int a = 8;
+int c = 23;
 void* b;
 
 //#define size_t unsigned int
