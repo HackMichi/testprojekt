@@ -1,0 +1,3 @@
+[submodule "submodule/global"]
+	path = submodule/global
+	url = https://github.com/HackMichi/global.git
