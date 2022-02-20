@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
-#define ARRAY_SIZE  20
+#define ARRAY_SIZE  28
 
 
 char buffer[10];
